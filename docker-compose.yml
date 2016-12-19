@@ -1,5 +1,5 @@
 aria2:
- build: .
+ image: wxyzhen/aria2
  container_name: aria2
  ports:
   - "6800:6800"
