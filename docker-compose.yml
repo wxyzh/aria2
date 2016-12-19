@@ -1,0 +1,9 @@
+aria2:
+ build: .
+ container_name: aria2
+ ports:
+  - "6800:6800"
+ volumes:
+  - "./downloads:/home/aria2/downloads"
+ restart: always
+
